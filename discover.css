@@ -1,0 +1,431 @@
+        /* algolia ui */
+        .ais-SearchBox {
+            margin-bottom: 1em;
+        }
+
+        .ais-SearchBox-input {
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            width: 60%;
+        }
+
+        .ais-SearchBox-submit,
+        .ais-SearchBox-reset {
+            display: none;
+        }
+
+        .ais-Stats {
+            display: inline-block;
+            margin-right: 1em;
+        }
+
+        .ais-Hits-item {
+            width: 30%;
+            display: block;
+            border-bottom: 1px solid #ddd;
+            padding: 0.5em 0;
+        }
+
+        .ais-Hits-item a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .ais-Pagination {
+            margin-top: 1em;
+        }
+
+        .ais-Pagination-list {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .ais-Pagination-item {
+            display: inline-block;
+            list-style: none;
+            margin-right: 0.5em;
+        }
+
+        .ais-Pagination-link {
+            display: block;
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .ais-Pagination-link[aria-current] {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .ais-Pagination-item--disabled .ais-Pagination-link {
+            color: #bbb;
+        }
+
+        .ais-Pagination-item--disabled .ais-Pagination-link:hover {
+            cursor: default;
+            background-color: transparent;
+        }
+
+        .ais-Pagination-item--selected .ais-Pagination-link {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .ais-Pagination-item--selected .ais-Pagination-link:hover {
+            cursor: default;
+            background-color: #000;
+        }
+
+        .ais-Pagination-item--previous .ais-Pagination-link {
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+
+        .ais-Pagination-item--next .ais-Pagination-link {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+
+        /* refinement list */
+        .ais-RefinementList {
+            margin-bottom: 1em;
+        }
+
+        .ais-RefinementList-header {
+            display: block;
+            padding: 0.5em 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .ais-RefinementList-body {
+            display: block;
+            padding: 0.5em 0;
+        }
+
+        .ais-RefinementList-item {
+            display: block;
+            padding: 0.5em 0;
+            width: 100%;
+        }
+
+        .ais-RefinementList-item div {
+            text-align: left !important;
+        }
+
+        .ais-RefinementList-item--selected {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-RefinementList-item--selected a {
+            color: #000;
+        }
+
+        .ais-RefinementList-item--selected a:hover {
+            cursor: default;
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-RefinementList-item--selected a:active {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-RefinementList-item--selected a:focus {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        /* refinement list show more btn */
+        .ais-RefinementList-showMore {
+            display: block;
+            padding: 0.5em 0;
+        }
+
+        .ais-RefinementList-showMore a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .ais-RefinementList-showMore a:hover {
+            cursor: default;
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-RefinementList-showMore a:active {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-RefinementList-showMore a:focus {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        /* refinement list count */
+        .ais-RefinementList-count {
+            display: inline-block;
+            margin-left: 1em;
+        }
+
+        .ais-RefinementList-checkbox {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+
+        .ais-RefinementList-label {
+            display: inline-block;
+        }
+
+        .ais-RefinementList-noResults {
+            display: block;
+            padding: 0.5em 0;
+        }
+
+        .ais-RefinementList-operator {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+
+        .ais-RefinementList-separator {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+
+        /* refinement list search */
+        .ais-RefinementList-search {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+
+        .ais-RefinementList-search input {
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            width: 100%;
+        }
+
+        .ais-RefinementList-searchSubmit {
+            display: none;
+        }
+
+        .ais-RefinementList-searchReset {
+            display: none;
+        }
+
+        .ais-RefinementList-searchReset:hover {
+            cursor: pointer;
+        }
+
+        .ais-RefinementList-searchReset:active {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-RefinementList-searchReset:focus {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        /* clear refinement list */
+        .ais-ClearRefinements {
+            display: block;
+            padding: 0.5em 0;
+        }
+
+        .ais-ClearRefinements-button {
+            display: inline-block;
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        #embed05 div {
+            text-align: left !important;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .ais-ClearRefinements-button:hover {
+            cursor: pointer;
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-ClearRefinements-button:active {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-ClearRefinements-button:focus {
+            background-color: #C94218;
+            color: #fff;
+        }
+
+        .ais-Hits-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 1em;
+            gap: 1em;
+        }
+
+        .ais-Hits-item {
+            width: 30%;
+        }
+
+        .ais-RefinementList-list-item {
+            text-align: left;
+            position: fixed;
+            font-size: 0.8em;
+            left: 0;
+        }
+
+        .ais-Hits-item .inner div div,
+        .ais-Hits-item .inner div p,
+        .ais-Hits-item .inner div a {
+            margin: 8px;
+        }
+
+        .stripe-button {
+            border: none;
+            padding: 0.5em 1em;
+            /* font-size: .8em; */
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #1C18C9;
+            color: #fff;
+        }
+
+        .ais-RefinementList-showMore {
+            text-align: center;
+            border: none;
+            padding: 0.2em 1em;
+            cursor: pointer;
+            background: none;
+            color: #075290;
+            text-decoration: underline;
+            /* font-size: 1em; */
+        }
+
+        .filters-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 1em;
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .filters-title-sm {
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 1em;
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .ais-RefinementList {
+            padding-bottom: 1em;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .ais-Hits--empty {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        #pagination {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .ais-Highlight-highlighted {
+            background: #ffff00;
+        }
+
+        .profile-image {
+            width: 4.75rem;
+            border-radius: 100%;
+            transition: none;
+            vertical-align: top;
+        }
+
+        .linkedin-img {
+            width: 1rem;
+            /* margin: 0 auto; */
+        }
+
+        .profile-bio {
+            text-align: justify;
+            color: #615B5B;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.75em;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .hit {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .profile-status {
+            text-align: center;
+            color: #615B5B;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.75em;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .ais-Hits-item .inner div div,
+        .ais-Hits-item .inner div p,
+        .ais-Hits-item .inner div a {
+            margin: 8px;
+        }
+
+        .ais-Hits-item .inner {
+            flex-wrap: wrap;
+            display: flex;
+            align-items: flex-start;
+            --gutters: 1.75rem;
+            --alignment: center;
+        }
+
+        .ais-Hits-item .inner>* {
+            flex-grow: 0;
+            flex-shrink: 0;
+            max-width: 100%;
+            text-align: var(--alignment);
+            padding: 0 0 0 var(--gutters);
+        }
+
+        /* media query for 768px*/
+        @media screen and (max-width: 768px) {
+            .ais-Hits-item {
+                width: 100%;
+            }
+
+            .hit {
+                padding: 0% !important;
+            }
+
+            .ais-Hits-list {
+                padding: 0%;
+            }
+
+            .ais-SearchBox-input {
+                width: 100%;
+            }
+
+            .ais-RefinementList,
+            #clear-refinements-city,
+            .filters-title-sm,
+            .filters-title {
+                display: none;
+            }
+        }
