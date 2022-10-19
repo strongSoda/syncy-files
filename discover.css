@@ -34,6 +34,8 @@
 
         .ais-Pagination {
             margin-top: 1em;
+            margin: 0 auto;
+            width: fit-content;
         }
 
         .ais-Pagination-list {
@@ -46,6 +48,10 @@
             display: inline-block;
             list-style: none;
             margin-right: 0.5em;
+                
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: -0.02em;        
         }
 
         .ais-Pagination-link {
