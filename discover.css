@@ -109,8 +109,8 @@
 
         .ais-RefinementList-item {
             display: block;
-            padding: 0.5em 0;
             width: 100%;
+            font-size: 14px;
         }
 
         .ais-RefinementList-item div {
@@ -182,6 +182,8 @@
 
         .ais-RefinementList-label {
             display: inline-block;
+            font-weight: light;
+            margin-bottom: 0;
         }
 
         .ais-RefinementList-noResults {
