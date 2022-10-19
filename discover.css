@@ -251,7 +251,7 @@
 
         #embed05 div {
             text-align: left !important;
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
         }
 
         .ais-ClearRefinements-button:hover {
@@ -296,11 +296,11 @@
 
         .stripe-button {
             border: none;
-            padding: 0.5em 1em;
-            /* font-size: .8em; */
+            padding: 0.1em 1em;
+            font-size: 14px !important;
             border-radius: 4px;
             cursor: pointer;
-            background-color: #1C18C9;
+            background-color: #3f53d8;
             color: #fff;
         }
 
@@ -320,7 +320,7 @@
             font-weight: bold;
             margin-bottom: 1em;
             text-align: left;
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
         }
 
         .filters-title-sm {
@@ -328,7 +328,7 @@
             font-weight: bold;
             margin-bottom: 1em;
             text-align: left;
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
         }
 
         .ais-RefinementList {
@@ -337,11 +337,11 @@
         }
 
         .ais-Hits--empty {
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
         }
 
         #pagination {
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
         }
 
         .ais-Highlight-highlighted {
@@ -363,20 +363,20 @@
         .profile-bio {
             text-align: justify;
             color: #615B5B;
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
             font-size: 0.75em;
             line-height: 1.5;
             font-weight: 400;
         }
 
         .hit {
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
         }
 
         .profile-status {
             text-align: center;
             color: #615B5B;
-            font-family: 'Open Sans', sans-serif;
+            font-family: Plusjakartasans, sans-serif;
             font-size: 0.75em;
             line-height: 1.5;
             font-weight: 400;
