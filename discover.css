@@ -359,10 +359,13 @@
         }
 
         .profile-image {
-            width: 4.75rem;
             border-radius: 100%;
             transition: none;
             vertical-align: top;
+                
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
         }
 
         .linkedin-img {
